@@ -1,0 +1,17 @@
+sources:
+  - name: landing
+    database: DBT_DATABASE
+    schema: L1_LANDING
+
+    tables:
+      - name: customers
+        identifier: customers
+
+      - name: orders
+        identifier: orders
+      
+      - name: orderitems
+        identifier: orderitems
+      
+      - name: employees
+        identifier: employees
